@@ -1,0 +1,76 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+claude_notepad/
+
+# Database
+*.db
+*.sqlite
+supabase/migrations/
+
+# LLM tools
+.mcp.json
+
+# Scripts
+scripts/quick_script.py
+
+
+# Legacy beads / Dolt files
+.dolt/
+*.db
+.beads-credential-key
+.beads/

@@ -1,0 +1,12 @@
+# Dialo CX application configuration
+# Non-secret settings that control app behavior.
+# Secrets (API keys, passwords) stay in .env.
+
+auth:
+  # "single_tenant" — skip login, auto-load the tenant below
+  # "multi_tenant"  — show the login form
+  mode: single_tenant
+  default_tenant_id: 310131
+
+wati:
+  phone: "+5218112089229"

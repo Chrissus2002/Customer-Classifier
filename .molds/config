@@ -1,0 +1,8 @@
+schema_version=4
+mode=markdown
+foundry_stages=build,qa
+foundry_max_attempts=3
+foundry_max_workers=2
+foundry_workers_build=2
+foundry_workers_qa=2
+default_branch=main
